@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Society Survey System</h1>
+        <p>Representative Election</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="survey.html">Survey</a>
+        <a href="election.html">Election</a>
+        <a href="results.html">Results</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section class="box">
+            <h2>Candidate List</h2>
+            <table>
+                <tr>
+                    <th>Candidate Name</th>
+                    <th>Flat Number</th>
+                    <th>Agenda</th>
+                </tr>
+                <tr>
+                    <td>Anita Rao</td>
+                    <td>B-204</td>
+                    <td>Improve cleanliness and maintenance.</td>
+                </tr>
+                <tr>
+                    <td>Ravi Sharma</td>
+                    <td>A-101</td>
+                    <td>Improve security and visitor entry.</td>
+                </tr>
+                <tr>
+                    <td>Kiran Patel</td>
+                    <td>C-302</td>
+                    <td>Improve parking management.</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="box form-box">
+            <h2>Voting Form</h2>
+            <form>
+                <label for="voter">Voter Name</label>
+                <input type="text" id="voter" name="voter">
+
+                <label for="voterFlat">Flat Number</label>
+                <input type="text" id="voterFlat" name="voterFlat">
+
+                <label for="candidate">Select Candidate</label>
+                <select id="candidate" name="candidate">
+                    <option>Anita Rao</option>
+                    <option>Ravi Sharma</option>
+                    <option>Kiran Patel</option>
+                </select>
+
+                <input type="submit" value="Submit Vote">
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Society Survey Project</p>
+    </footer>
+</body>
+</html>
